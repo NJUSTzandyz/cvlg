@@ -345,6 +345,8 @@
 
   <script src="/cvlg/_scripts/anchors.js"></script>
 
+  <script src="/cvlg/_scripts/carousel.js"></script>
+
   <script src="/cvlg/_scripts/dark-mode.js"></script>
 
   <script src="/cvlg/_scripts/fetch-tags.js"></script>
@@ -505,15 +507,12 @@
 
 <h2 id="resents">Resents</h2>
 
-<div class="plugin-feature" data-flip="">
-    <a href="/cvlg/research" class="plugin-image" aria-label="plugin link">
-      <img src="" loading="lazy" alt="plugin image" onerror="this.src = '/cvlg/images/fallback.svg'; this.onerror = null;">
-    </a>
-    <div class="plugin-text">
-      
-      <p>See our publications</p>
-
-    </div>
+<div class="carousel">
+    
+    
+    <!-- Navigation buttons -->
+    <a class="prev" onclick="changeSlide(-1)">❮</a>
+    <a class="next" onclick="changeSlide(1)">❯</a>
   </div>
 
 <h2 id="highlights">Highlights</h2>
