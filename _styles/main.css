@@ -1,3 +1,4 @@
+@charset "UTF-8";
 main {
   display: flex;
   flex-direction: column;
@@ -15,8 +16,9 @@ main {
   text-align: center;
 }
 .carousel .carousel-item img {
-  width: 100%;
-  height: auto;
+  width: 100%; /* 保证图片宽度为容器的宽度 */
+  height: 500px; /* 自动调整高度 */
+  object-fit: cover; /* 保证图片裁剪后依然保持比例 */
 }
 .carousel .carousel-item.active {
   display: block;
