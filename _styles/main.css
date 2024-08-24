@@ -81,7 +81,8 @@ main {
 }
 
 .content-section {
-  display: flex;
+  display: grid;
+  align-items: start; /* 顶端对齐 */
   justify-content: space-between;
   padding: 20px;
   background-color: #f5f5f5;
