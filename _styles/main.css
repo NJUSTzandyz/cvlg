@@ -7,7 +7,7 @@ main {
 
 .carousel {
   position: relative;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
   overflow: hidden;
 }
@@ -88,19 +88,19 @@ main {
 }
 .content-section .news, .content-section .contact-us {
   padding: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .content-section .news {
-  width: 60%;
-  background-color: #6a0dad;
+  width: 70%;
+  background-color: #9c96a0;
 }
 .content-section .contact-us {
-  width: 40%;
-  background-color: #8a2be2;
+  width: 30%;
+  background-color: rgb(116, 94, 136);
 }
 @media (max-width: 768px) {
   .content-section {
