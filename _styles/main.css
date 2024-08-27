@@ -91,7 +91,6 @@ main {
 }
 .content-section .news, .content-section .contact-us {
   padding: 20px;
-  color: rgb(0, 0, 0);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -99,9 +98,11 @@ main {
 }
 .content-section .news {
   background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 .content-section .contact-us {
   background-color: #841983;
+  color: #ffffff;
 }
 @media (max-width: 768px) {
   .content-section {
